@@ -4,7 +4,7 @@
 
 ### To deploy the application on the k8s cluster please try the following  steps : 
 ```bash
-kubectl apply -f php_service/yaml 
+kubectl apply -f php_service.yaml 
 ```
 * To list services type `kubectl get services` || `kubectl get svc` 
 ```bash
