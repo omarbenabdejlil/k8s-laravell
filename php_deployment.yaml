@@ -22,7 +22,7 @@ spec:
           path: /code
       containers:
       - name: php
-        image: omarbenabdejlil/laravel:1.0
+        image: omarbenabdejlil/laravelapp:1.0
         volumeMounts:
         - name: dir
           mountPath: /code
